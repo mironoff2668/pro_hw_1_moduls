@@ -1,6 +1,6 @@
 from datetime import datetime
 from accounting.application.salary import calculate_salary
-from accounting.db.people import get_employees
+from accounting.application.db.people import get_employees
 
 
 if __name__ == '__main__':
